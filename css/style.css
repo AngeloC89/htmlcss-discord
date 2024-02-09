@@ -1,0 +1,19 @@
+/*reset*/ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+/*general */
+:root {
+    --color-scondary: #ffffff;
+    --color-primary: #23272a;
+    --color-header-bg: #255ee9;
+    --color-section-bg: #f6f6f6;
+    --color-contrast: ■ #aebbe7;
+}

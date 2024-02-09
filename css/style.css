@@ -1,4 +1,4 @@
-/*reset*/ 
+/*reset*/
 * {
     padding: 0;
     margin: 0;
@@ -17,6 +17,7 @@ ul {
     --color-section-bg: #f6f6f6;
     --color-contrast: ■ #aebbe7;
 }
+
 .debug {
     border: 2px solid black;
 }
@@ -27,18 +28,12 @@ body {
     color: var(--color-primary);
 }
 
-.left {
-    width: 40%;
-}
-
-.right {
-    width: 60%;
-}
 
 /* header */
-header{
+header {
     background-color: var(--color-header-bg);
     color: var(--color-scondary);
+    max-width: 100%;
 }
 
 #hero {
@@ -47,11 +42,41 @@ header{
     background-size: cover;
 }
 
+nav.d-flex a {
+    color: var(--color-scondary);
+    justify-content: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+/* main */
+.section-bg {
+    background-color: var(--color-section-bg);
+
+}
+
+.left img {
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+
+}
+
+.right {
+    width: 50%;
+    padding-top: 3%;
+}
+
 /* footer */
 footer {
     background-color: var(--color-primary);
     color: var(--color-scondary);
+
 }
+
+
 /* Utility */
 .container {
     min-width: 330px;
@@ -75,3 +100,19 @@ footer {
     flex-direction: row-reverse;
 }
 
+.s-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+    align-content: center;
+    /*se lo chiama solo se sono più righe in colonna*/
+}
+
+.btn-w{
+    padding: 6px 12px;
+    border-radius: 15px;
+    color: var(--color-primary);
+
+}

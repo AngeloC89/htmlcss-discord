@@ -36,7 +36,15 @@ header {
     max-width: 100%;
 }
 
-#hero {
+h1{
+    padding: 3%;
+    font-size: 3em;
+}
+
+p{
+    padding: 3%;
+}
+.hero {
     background-image: url(../img/jumbo.png);
     min-height: 500px;
     background-size: cover;
@@ -55,12 +63,13 @@ nav.d-flex a {
 
 }
 
-.left img {
+section img {
     width: 100%;
 }
 
 .left {
     width: 50%;
+    background-color: var(--color-section-bg);
 
 }
 
@@ -69,9 +78,26 @@ nav.d-flex a {
     padding-top: 3%;
 }
 
+section#channel {
+    background: var(--color-section-bg)
+}
+
 section#tecnology img{
     width: 100%;
+    
+
 }
+.wave {
+    width: 100%;
+    opacity: 1;
+
+
+}
+.wave-d {
+    transform: scaleY(-1);
+    width: 100%;
+
+ }
 
 /* footer */
 footer {
@@ -85,6 +111,17 @@ footer li>a{
 
 .text-b {
     color: var(--color-header-bg);
+}
+footer a i{
+    padding: 5%;
+ 
+}
+
+ul.list:first-child{
+    font-size: 30px;
+}
+.list{
+    align-items: flex-start;
 }
 
 /* Utility */
@@ -105,6 +142,9 @@ footer li>a{
     display: flex;
 
 }
+.align-s{
+    align-content: flex-end ;
+}
 
 .row-reverse {
     flex-direction: row-reverse;
@@ -121,9 +161,17 @@ footer li>a{
 }
 
 .btn-w{
-    padding: 6px 12px;
+    padding: 8px 12px;
     border-radius: 15px;
     color: var(--color-primary);
+
+}
+
+.btn-b{
+    padding: 8px 12px;
+    border-radius: 15px;
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
 
 }
 section#call-to-action button{

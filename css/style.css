@@ -69,13 +69,23 @@ nav.d-flex a {
     padding-top: 3%;
 }
 
+section#tecnology img{
+    width: 100%;
+}
+
 /* footer */
 footer {
     background-color: var(--color-primary);
     color: var(--color-scondary);
 
 }
+footer li>a{
+    color: var(--color-scondary);
+}
 
+.text-b {
+    color: var(--color-header-bg);
+}
 
 /* Utility */
 .container {
@@ -115,4 +125,11 @@ footer {
     border-radius: 15px;
     color: var(--color-primary);
 
+}
+section#call-to-action button{
+    background-color: var(--color-header-bg);
+}
+
+.f-direction {
+    flex-direction: column;
 }

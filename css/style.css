@@ -17,3 +17,61 @@ ul {
     --color-section-bg: #f6f6f6;
     --color-contrast: ■ #aebbe7;
 }
+.debug {
+    border: 2px solid black;
+}
+
+body {
+    background-color: var(--color-scondary);
+    font font-family: "noto sans", sans-serif;
+    color: var(--color-primary);
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 60%;
+}
+
+/* header */
+header{
+    background-color: var(--color-header-bg);
+    color: var(--color-scondary);
+}
+
+#hero {
+    background-image: url(../img/jumbo.png);
+    min-height: 500px;
+    background-size: cover;
+}
+
+/* footer */
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+/* Utility */
+.container {
+    min-width: 330px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.small-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+

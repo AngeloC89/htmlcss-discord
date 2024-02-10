@@ -113,8 +113,13 @@ section#call-to-action a {
 section#call-to-action button {
     color: var(--color-scondary);
     background-color: #7289DA;
+    
 }
 
+section#call-to-action button:hover{
+
+    background-color: orangered;
+}
 section#call-to-action h2 {
     padding: 2em;
     margin-top: 10px;
@@ -219,9 +224,12 @@ footer div:last-child button {
     font-size: 20px;
     color: var(--color-scondary);
     margin-right: 0px;
-
+    
 }
 
+footer div:last-child button:hover{
+    background-color: orangered;
+}
 
 ul.list li:first-child {
     font-size: 30px;
@@ -276,9 +284,6 @@ ul.list {
     justify-content: space-between;
 }
 
-.s-around {
-    justify-content: space-evenly;
-}
 
 .align-items-center {
     align-items: center;
@@ -295,6 +300,11 @@ ul.list {
 
 }
 
+.btn-w:hover{
+    background-color: black;
+    color: white;
+}
+
 .btn-b {
     padding: 8px 12px;
     border-radius: 25px;
@@ -302,6 +312,11 @@ ul.list {
     color: var(--color-scondary);
     font-size: 25px;
 
+}
+
+.btn-b:hover{
+    background-color: var(--color-section-bg);
+    color: black;
 }
 
 .f-direction {

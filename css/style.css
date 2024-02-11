@@ -40,7 +40,7 @@ header {
 
 }
 
-header p{
+header p {
     font-size: 25px;
     line-height: 2;
 }
@@ -50,7 +50,8 @@ h1 {
     padding-top: 15%;
     font-size: 3em;
 }
-div.hero div div{
+
+div.hero div div {
     margin-top: 80px;
 }
 
@@ -101,7 +102,7 @@ section img {
 
 .right p {
     font-size: 25px;
-    padding-left:0;
+    padding-left: 0;
 }
 
 section#call-to-action a {
@@ -111,13 +112,13 @@ section#call-to-action a {
 section#call-to-action button {
     color: var(--color-scondary);
     background-color: #7289DA;
-    
+
 }
 
-section#call-to-action button:hover{
-
-    background-color: orangered;
+section#call-to-action button:hover { box-shadow: 0px 10px 7px 0px rgba(40,40,40,40) ; 
 }
+
+
 section#call-to-action h2 {
     padding: 2em;
     margin-top: 10px;
@@ -146,7 +147,7 @@ section#tecnology h2 {
 }
 
 section#tecnology p {
-    font-size:25px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -183,7 +184,7 @@ footer {
     background-color: var(--color-primary);
     color: var(--color-scondary);
     max-width: 100%;
-    padding: 40px;
+    padding: 40px 20px 10px;
 }
 
 footer div:first-child {
@@ -215,7 +216,7 @@ footer li img {
 }
 
 footer li {
-   margin-top: 7px;
+    margin-top: 7px;
 }
 
 footer div:last-child button {
@@ -225,13 +226,15 @@ footer div:last-child button {
     font-size: 20px;
     color: var(--color-scondary);
     margin-right: 0px;
-    border:none;
-    
+    border: none;
+   
+
 }
 
-footer div:last-child button:hover{
-    background-color: orangered;
+footer div:last-child button:hover {
+    box-shadow: 0px 10px 7px 0px rgba(240, 240, 240, 40);
 }
+
 
 ul.list li:first-child {
     font-size: 30px;
@@ -265,7 +268,7 @@ ul.list {
     text-align: center;
 }
 
-.t-a-center{
+.t-a-center {
     text-align: center;
 }
 
@@ -303,10 +306,8 @@ ul.list {
 
 }
 
-.btn-w:hover{
-    background-color: black;
-    color: white;
-    border: none;
+.btn-w:hover { 
+    box-shadow: 0px 10px 7px 0px rgba(40,40,40,40) ; 
 }
 
 .btn-b {
@@ -315,12 +316,12 @@ ul.list {
     background-color: var(--color-primary);
     color: var(--color-scondary);
     font-size: 25px;
+    border: none;
 
 }
 
-.btn-b:hover{
-    background-color: var(--color-section-bg);
-    color: black;
+.btn-b:hover {
+    box-shadow: 0px 10px 7px 0px rgba(240,240,240,40) ; 
 }
 
 .f-direction {

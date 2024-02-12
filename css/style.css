@@ -7,6 +7,7 @@
 
 ul {
     list-style: none;
+    display: inline-block;
 }
 
 /*general */
@@ -41,7 +42,7 @@ header {
 }
 
 header p {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 2;
 }
 
@@ -195,8 +196,10 @@ footer {
     padding: 40px 20px 10px;
 }
 
-footer div:first-child {
-    align-content: flex-start;
+footer>div:first-child {
+    max-width: 900px;
+    margin: 0 auto 3%;
+    justify-content: space-between;
 
 
 }
@@ -248,6 +251,10 @@ footer div:last-child button {
 footer div:last-child button:hover {
     box-shadow: 0px 10px 7px 0px rgba(240, 240, 240, 40);
     transition: 0.4s;
+}
+footer ul {
+    margin:0;
+    
 }
 ul.list i{
     margin-right: 7%;

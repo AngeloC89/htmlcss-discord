@@ -30,7 +30,7 @@ body {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 35px;
 }
 
 /* header */
@@ -70,14 +70,19 @@ p {
 }
 
 .hero div p {
-    padding: 0% 14% 3% 14% ;
+    padding: 0% 14% 3% 14%;
 }
+
 nav.d-flex a {
     color: var(--color-scondary);
     justify-content: center;
     padding: 10px 15px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 16px;
+}
+nav.d-flex a:hover{
+    text-decoration: underline;
+    transition: 0,4s;
 }
 
 /* main */
@@ -101,7 +106,7 @@ section img {
 }
 
 .right p {
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 0;
 }
 
@@ -115,7 +120,9 @@ section#call-to-action button {
 
 }
 
-section#call-to-action button:hover { box-shadow: 0px 10px 7px 0px rgba(40,40,40,40) ; 
+section#call-to-action button:hover {
+    box-shadow: 0px 10px 7px 0px rgba(40, 40, 40, 40);
+    transition: 0.4s;
 }
 
 
@@ -144,10 +151,11 @@ section#tecnology {
 
 section#tecnology h2 {
     font-size: 3em;
+    text-align: center;
 }
 
 section#tecnology p {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -194,14 +202,14 @@ footer div:first-child {
 }
 
 footer div:last-child {
-    padding: 30px;
+    padding: 2px;
     border-top: 2px solid var(--color-contrast);
 
 }
 
 footer li>a {
     color: var(--color-scondary);
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: none;
 }
 
@@ -219,26 +227,35 @@ footer li {
     margin-top: 7px;
 }
 
+footer li a:hover {
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+
 footer div:last-child button {
     background-color: #7289DA;
     padding: 12px 15px;
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 15px;
     color: var(--color-scondary);
     margin-right: 0px;
     border: none;
-   
+
 
 }
 
 footer div:last-child button:hover {
     box-shadow: 0px 10px 7px 0px rgba(240, 240, 240, 40);
+    transition: 0.4s;
+}
+ul.list i{
+    margin-right: 7%;
 }
 
-
 ul.list li:first-child {
-    font-size: 30px;
-    padding: 0;
+    font-size: 20px;
+    padding: 0%;
 }
 
 ul.list {
@@ -252,20 +269,20 @@ ul.list {
 /* Utility */
 .text-b {
     color: #7289DA;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .container {
     min-width: 300px;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
 }
 
 .small-container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    text-align: center;
+
 }
 
 .t-a-center {
@@ -300,14 +317,15 @@ ul.list {
     padding: 12px 15px;
     border-radius: 25px;
     color: var(--color-primary);
-    font-size: 25px;
+    font-size: 15px;
     border: none;
 
 
 }
 
-.btn-w:hover { 
-    box-shadow: 0px 10px 7px 0px rgba(40,40,40,40) ; 
+.btn-w:hover {
+    box-shadow: 0px 10px 7px 0px rgba(40, 40, 40, 40);
+    transition: 0.4s;
 }
 
 .btn-b {
@@ -315,13 +333,15 @@ ul.list {
     border-radius: 25px;
     background-color: var(--color-primary);
     color: var(--color-scondary);
-    font-size: 25px;
+    font-size: 15px;
     border: none;
+
 
 }
 
 .btn-b:hover {
-    box-shadow: 0px 10px 7px 0px rgba(240,240,240,40) ; 
+    box-shadow: 0px 10px 7px 0px rgba(240, 240, 240, 40);
+    transition: 0.4s;
 }
 
 .f-direction {

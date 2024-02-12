@@ -47,13 +47,10 @@ header p {
 
 h1 {
     margin: 40px 0;
-    padding-top: 15%;
+    padding-top: 4%;
     font-size: 3em;
 }
 
-div.hero div div {
-    margin-top: 80px;
-}
 
 p {
     padding: 4%;
@@ -68,10 +65,13 @@ p {
 
 .hero {
     background-image: url(../img/jumbo.png);
-    min-height: 800px;
+    min-height: 600px;
     background-size: cover;
 }
 
+.hero div p {
+    padding: 0% 14% 3% 14% ;
+}
 nav.d-flex a {
     color: var(--color-scondary);
     justify-content: center;

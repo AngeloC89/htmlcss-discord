@@ -94,52 +94,26 @@ nav.d-flex a:hover{
 /* main */
 
 #row1>div {
+    
 
 
 }
 #row2>div{
+    font-size: 3em;
+}
+#row3>div{
+    background-color: var(--color-section-bg);
 
 }
-#row3>div{background-color: antiquewhite;
-
-}
-#row4>div{background-color: antiquewhite;
-
-}
-section img {
-    width: 70%;
-    
-}
-#nitrobasic{
-
-    background-color: #255ee9;
-    color: white;
-}
-
-#nitro{
-    background-image: linear-gradient(135deg,#8547c6 10%,#b845c1 50%,#ab5d8a); 
-    color: white;
-}
-.left {
-    width: 50%;
-    margin: 0;
-    
-    align-items: center;
-    justify-content: center;
-}
-  
-
-
-
-
-.right {
-    width: 50%;
-    margin: 0;
-    
+#row4>div{
+    background-color: var(--color-section-bg);
 
 }
 
-
+#rowbutton  {
+    background-image: linear-gradient(135deg,#8547c6 10%,#b845c1 50%,#ab5d8a);
+    padding-top: 2%;
+}
 
 section#rowbutton a {
     padding: 7%;
@@ -160,38 +134,41 @@ section#rowbutton  button:hover {
 section##rowbutton  h2 {
     padding: 2em;
     margin-top: 10px;
-  
 
 }
 
-section#rowbutton  {
-    background-image: linear-gradient(135deg,#8547c6 10%,#b845c1 50%,#ab5d8a);
+section img {
+    width: 70%;
+    
+}
+#nitrobasic{
+
+    background-color: #255ee9;
+    color: white;
 }
 
-section#channel {
-    background-color: var(--color-section-bg);
+#nitro{
+    background-image: linear-gradient(135deg,#8547c6 10%,#b845c1 50%,#ab5d8a); 
+    color: white;
+}
+.left {
+    width: 50%;
+    margin: 0;
+    border-radius: 20px;
+    padding: 20px;
+
 }
 
-section#tecnology {
-    background-color: var(--color-section-bg);
-    margin-top: 0;
+.right {
+    width: 50%;
+    margin: 0;
+    border-radius: 20px;
+    padding: 20px;
+    
 
 }
 
-section#tecnology h2 {
-    font-size: 3em;
-    text-align: center;
-}
 
-section#tecnology p {
-    font-size: 20px;
-    text-align: center;
-}
-
-section#tecnology img {
-    width: 100%;
-
-}
 
 div.wave {
     width: 100%;
